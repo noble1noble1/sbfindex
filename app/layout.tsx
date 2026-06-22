@@ -5,6 +5,9 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://sbfindex.com";
 const OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 export const metadata: Metadata = {
+  other: {
+    "x-deploy-test": "lesson-pipeline-ok-20260622",
+  },
   title: "SBF Index — The Ghost Portfolio",
   description:
     "Sam Bankman-Fried would be worth $100 billion today if the FTX estate had held his book. A live tracker of every position sold too early.",
